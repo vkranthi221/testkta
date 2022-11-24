@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-16"?>
+<BusinessRule xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Identity>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Id>7D0FA92908CB4E1EACA27C69CC27B84A</Id>
+    <Name>Activity 1_rule</Name>
+    <Version>2</Version>
+    <ProcessId />
+  </Identity>
+  <LatestVersion>false</LatestVersion>
+  <Version>2</Version>
+  <ProcessIdentity>
+    <Id>A9DF6C200B7ED63A588D21F2E900584F</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Version>2</Version>
+    <Name>Activity 1_rule</Name>
+  </ProcessIdentity>
+  <RuleType>DigitalAssistant</RuleType>
+  <CategoryIdentity>
+    <Id>201F370CA5164F76ADDD8EEEFF666AF7</Id>
+    <AutomaticallyPopulate>true</AutomaticallyPopulate>
+    <Name />
+  </CategoryIdentity>
+  <LastModifiedUserName />
+  <FlaggedForRelease>false</FlaggedForRelease>
+  <CurrentRuleView>Released</CurrentRuleView>
+  <IsRuleInUse>false</IsRuleInUse>
+  <LastModifiedUser>4560BC3FFCE149A69EA1D234B097D1DF</LastModifiedUser>
+  <LastModifiedDate>2022-05-18T12:13:27.23</LastModifiedDate>
+  <WIPRuleData>
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables />
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection />
+    </decisiontabledata>
+  </WIPRuleData>
+  <ReleaseRuleData>
+    <inputs>
+      <name>ONBEHALFOF</name>
+      <type>8</type>
+      <description>On Behalf Of</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>DM1_F6F04FC0F589BF921A3A9CEA9A9DA87F</name>
+      <type>8</type>
+      <description>Dm1.FIELD1</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>Usbres1247F70C509943ED86087FDF8406D06C</name>
+      <type>8</type>
+      <description>UsableResources</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>REASSIGNTO</name>
+      <type>8</type>
+      <description>Update Assignment To</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>DM1_70A8820F5C8148F8EE6888BE5756F404</name>
+      <type>8</type>
+      <description>Dm1.FIELD2</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>Exeres8B85205EDE8D4F799C27B483224B3D63</name>
+      <type>2</type>
+      <description>ExecutionResult</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables>
+        <VariableIdentity>
+          <Id>ONBEHALFOF</Id>
+          <Version>0</Version>
+          <DisplayName>On Behalf Of</DisplayName>
+        </VariableIdentity>
+        <VariableIdentity>
+          <Id>DM1_F6F04FC0F589BF921A3A9CEA9A9DA87F</Id>
+          <Version>0</Version>
+          <DisplayName>Dm1.FIELD1</DisplayName>
+        </VariableIdentity>
+        <VariableIdentity>
+          <Id>REASSIGNTO</Id>
+          <Version>0</Version>
+          <DisplayName>Update Assignment To</DisplayName>
+        </VariableIdentity>
+        <VariableIdentity>
+          <Id>DM1_70A8820F5C8148F8EE6888BE5756F404</Id>
+          <Version>0</Version>
+          <DisplayName>Dm1.FIELD2</DisplayName>
+        </VariableIdentity>
+      </ShowOnTableVariables>
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection>
+        <DigitalAssistantRuleDataConfiguration>
+          <OnBehalfOfUser>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Name />
+            <ResourceType>Worker</ResourceType>
+            <EmailAddress />
+            <UserId />
+            <ManagerialLevel>0</ManagerialLevel>
+          </OnBehalfOfUser>
+          <ReassignToUser>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Name />
+            <ResourceType>Worker</ResourceType>
+            <EmailAddress />
+            <UserId />
+            <ManagerialLevel>0</ManagerialLevel>
+          </ReassignToUser>
+          <RowNumber>1</RowNumber>
+        </DigitalAssistantRuleDataConfiguration>
+      </DigitalAssistantRuleDataConfigurationCollection>
+    </decisiontabledata>
+  </ReleaseRuleData>
+  <Description />
+  <Rule>
+    <inputs>
+      <name>ONBEHALFOF</name>
+      <type>8</type>
+      <description>On Behalf Of</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>DM1_F6F04FC0F589BF921A3A9CEA9A9DA87F</name>
+      <type>8</type>
+      <description>Dm1.FIELD1</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <inputs>
+      <name>Usbres1247F70C509943ED86087FDF8406D06C</name>
+      <type>8</type>
+      <description>UsableResources</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </inputs>
+    <outputs>
+      <name>REASSIGNTO</name>
+      <type>8</type>
+      <description>Update Assignment To</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>DM1_70A8820F5C8148F8EE6888BE5756F404</name>
+      <type>8</type>
+      <description>Dm1.FIELD2</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <outputs>
+      <name>Exeres8B85205EDE8D4F799C27B483224B3D63</name>
+      <type>2</type>
+      <description>ExecutionResult</description>
+      <errorCodeMappingType>Static</errorCodeMappingType>
+      <variableAccessScope>Public</variableAccessScope>
+    </outputs>
+    <businessrulecalculations />
+    <decisiontabledata>
+      <HitPolicyType>First</HitPolicyType>
+      <ShowOnTableVariables>
+        <VariableIdentity>
+          <Id>ONBEHALFOF</Id>
+          <Version>0</Version>
+          <DisplayName>On Behalf Of</DisplayName>
+        </VariableIdentity>
+        <VariableIdentity>
+          <Id>DM1_F6F04FC0F589BF921A3A9CEA9A9DA87F</Id>
+          <Version>0</Version>
+          <DisplayName>Dm1.FIELD1</DisplayName>
+        </VariableIdentity>
+        <VariableIdentity>
+          <Id>REASSIGNTO</Id>
+          <Version>0</Version>
+          <DisplayName>Update Assignment To</DisplayName>
+        </VariableIdentity>
+        <VariableIdentity>
+          <Id>DM1_70A8820F5C8148F8EE6888BE5756F404</Id>
+          <Version>0</Version>
+          <DisplayName>Dm1.FIELD2</DisplayName>
+        </VariableIdentity>
+      </ShowOnTableVariables>
+      <CollectPolicyOperator>None</CollectPolicyOperator>
+      <ErrorCodeVariableCollection />
+      <DigitalAssistantRuleDataConfigurationCollection>
+        <DigitalAssistantRuleDataConfiguration>
+          <OnBehalfOfUser>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Name />
+            <ResourceType>Worker</ResourceType>
+            <EmailAddress />
+            <UserId />
+            <ManagerialLevel>0</ManagerialLevel>
+          </OnBehalfOfUser>
+          <ReassignToUser>
+            <Id />
+            <AutomaticallyPopulate>true</AutomaticallyPopulate>
+            <Name />
+            <ResourceType>Worker</ResourceType>
+            <EmailAddress />
+            <UserId />
+            <ManagerialLevel>0</ManagerialLevel>
+          </ReassignToUser>
+          <RowNumber>1</RowNumber>
+        </DigitalAssistantRuleDataConfiguration>
+      </DigitalAssistantRuleDataConfigurationCollection>
+    </decisiontabledata>
+  </Rule>
+  <SourceControlStatus>NotInSourceControl</SourceControlStatus>
+</BusinessRule>
